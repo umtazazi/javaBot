@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args)
     {
 
-        String token = "ODEyMzI1NTgwMjA4NDcyMDk0.YC_HJg.TaDZSdW3tI3xKGF10g9jN1QlBrA";
+        String token = "Tokeni buraya yaz";
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
         api.addListener(new MyListener());
     }
